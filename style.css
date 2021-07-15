@@ -5,7 +5,7 @@ start header
     font-family: 'Roboto', sans-serif;
 }
 .container{
-    background-color:indigo;
+    background-color:rgb(66, 93, 38);
     padding: 50px;
 }
 
@@ -45,7 +45,7 @@ span{
 
 section{
     height: 500px;
-    padding-bottom: 150px;
+    padding-bottom: 5px;
 }
 .top-banner{
     background-image: url("images/top-banner.png");
@@ -74,31 +74,21 @@ h1 span{
     transform: rotate(2s);
     
 }
-
-.anchor-button{
-    text-decoration: none;
-    background: linear-gradient(45deg, blue,skyblue);
-    padding: 10px 40px;
-    border-radius: 5px;
-    color:pink;
-    font-weight: 700;
-}
-
-
 /*---------
 header end
 -------------*/
 /* @media (max-width:992px){
-    .top-players, .courses{
+    .all-players{
         grid-template-columns: repeat(2, 1fr);
         }
     .blogs{
          grid-template-columns: repeat(1, 1fr);
         }
     }
-    @media (max-width:668px){
-        .top-players, .courses{
+    @media only screen and (max-width:668px){
+        .all-players{
             grid-template-columns: repeat(1, 1fr);
+            width:100%
             }
          .blog{
              display: block;
@@ -111,18 +101,18 @@ Main section start
 main{
     display:grid;
 }
+
 .all-players{
     display: grid;
    grid-template-columns: repeat(3, 1fr);
    align-items: center;
    width: 80%;
-   grid-gap: 34px 17px;
+   grid-gap: 10px 10px;
    margin-left: 144px;
    border-radius: 10px;
-   background-image:url(images/sky.jpg);
+}
     
 
-}
 
 .img-style{
     width:100%;
@@ -131,7 +121,6 @@ main{
 }
 
 .Card{
-    width:300px;
     margin:10px;
     box-sizing:border-box;
     box-shadow:1px 2px 5px black;
@@ -162,3 +151,92 @@ main{
 /*---------
 main section end
 --------*/
+
+
+/*-------- 
+section start 
+----------------*/
+
+
+h1{
+    font-size: 50px;
+    
+}
+ 
+
+section{
+    display: flex;
+    margin-bottom: auto;
+}
+
+.div{
+    width: 50%;
+    padding-left: 50%;
+}
+.div1 img{
+    max-width:600px;
+    height: 500px;
+    
+}
+.anchor-button{
+    text-decoration: none;
+    background: linear-gradient(45deg, rgb(88, 6, 10),rgb(212, 9, 26));
+    padding: 10px 40px;
+    border-radius: 5px;
+    color:black;
+    font-weight: 700;
+}
+
+.section1{
+     background-color: beige;
+    text-align: center;
+    background-repeat: no-repeat;
+    padding: 1%;
+}
+
+/*------------
+section end
+-------------- */
+
+
+/*--------
+   footer start
+------------- */
+ .img{
+     padding: 40px;
+     height:100px;
+     max-width:200px;
+     position:50px;
+    
+ }
+
+ .imge{
+    padding:5px;
+    height:50px;
+    max-width:100px;
+    background-position: center;
+   
+}
+
+footer{
+    text-align: center;
+}
+
+section{
+    text-align: center;
+}
+
+/*-------------
+   Footer end 
+   --------------- */
+/*------------
+ MEDIA content 
+ ----------------- */
+ @media only screen and (max-width:668px){
+    .all-players{
+        grid-template-columns: repeat(1, 1fr);
+        width:100%
+        }
+     .blog{
+         display: block;
+     }
