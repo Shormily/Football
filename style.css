@@ -222,8 +222,11 @@ footer{
     text-align: center;
 }
 
-section{
-    text-align: center;
+.copy{
+    height: 100px 200px;
+     display: flex;
+    justify-content:center; 
+    
 }
 
 /*-------------
@@ -232,11 +235,11 @@ section{
 /*------------
  MEDIA content 
  ----------------- */
- @media only screen and (max-width:668px){
+ /* @media only screen and (max-width:668px){
     .all-players{
         grid-template-columns: repeat(1, 1fr);
         width:100%
         }
      .blog{
          display: block;
-     }
+      */
